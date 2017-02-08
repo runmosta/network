@@ -1,0 +1,18 @@
+[local]
+localhost ansible_connection=local
+
+[all]
+
+[router]
+homelab-r1 
+homelab-r2
+
+[switch]
+homelab-sw01
+homelab-sw-loft
+
+
+[router:vars]
+#ansible_python_interpreter=~/VENV/ansible2/bin/python
+ansible_connection=local
+
