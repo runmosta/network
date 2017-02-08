@@ -1,0 +1,11 @@
+---
+show_inventory: show inventory oid
+
+results: report 
+
+credentials:
+  host: "{{ inventory_hostname }}"
+  username: "demo"
+  password: "demo"
+  snmpversion: v2c
+  snmpcommunity: demo

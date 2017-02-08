@@ -1,0 +1,6 @@
+---
+main:
+  vlan: 99
+  ports:
+    - { switch: homelab-sw01, port: "GigabitEthernet0/5" }
+    - { switch: homelab-sw-loft, port: "FastEthernet0/5" }
